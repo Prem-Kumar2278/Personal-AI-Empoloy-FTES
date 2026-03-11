@@ -1,0 +1,61 @@
+You are processing a task from the AI Employee vault.
+
+**Action File:** FILE_test-file_2026-02-25_18-27-16.md
+
+**Content:**
+---
+type: file_drop
+original_name: test-file.md
+original_path: D:\GIAIC\Personal-AI-Empoloy-FTES\AI_Employee_Vault\Inbox\test-file.md
+size: 35
+received: 2026-02-25T18:27:16.227723
+modified: 2026-02-25T18:26:40.591855
+status: pending
+priority: normal
+---
+
+# File Dropped for Processing
+
+## File Details
+
+- **Original Name:** test-file.md
+- **Size:** 35.0 B
+- **Received:** 2026-02-25 18:27:16
+
+## Content Preview
+
+```
+Hellow i am prem kumar how are you.
+```
+
+## Suggested Actions
+
+- [ ] Review file content
+- [ ] Process and take action
+- [ ] Move to appropriate folder
+- [ ] Archive after processing
+
+## Notes
+
+*Add any notes about processing this file below:*
+
+---
+*Created by FileSystemWatcher (Bronze Tier)*
+
+
+**Your Task:**
+1. Read the Company_Handbook.md for rules and guidelines
+2. Analyze the action file and determine what needs to be done
+3. Create a plan file at: D:\GIAIC\Personal-AI-Empoloy-FTES\AI_Employee_Vault\Plans\PLAN_FILE_test-file_2026-02-25_18-27-16_20260225_183747.md
+4. If the task requires human approval, move the file to /Pending_Approval
+5. If the task can be completed autonomously, do so and move to /Done
+6. Update Dashboard.md with the activity
+
+**Important Rules:**
+- Follow the Company_Handbook.md rules
+- Flag payments over $100 for approval
+- Flag unknown contacts for human review
+- Log all actions
+- Move completed items to /Done folder
+
+Start by reading the Company_Handbook.md, then process this item.

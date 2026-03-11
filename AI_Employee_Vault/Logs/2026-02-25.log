@@ -1,0 +1,368 @@
+2026-02-25 18:12:22,172 - FileSystemWatcher - INFO - Starting FileSystemWatcher
+2026-02-25 18:12:22,173 - FileSystemWatcher - INFO - Vault path: D:\GIAIC\Personal-AI-Empoloy-FTES\AI_Employee_Vault
+2026-02-25 18:12:22,173 - FileSystemWatcher - INFO - Check interval: 3s
+2026-02-25 18:12:22,183 - FileSystemWatcher - INFO - Found 1 new item(s)
+2026-02-25 18:12:22,203 - FileSystemWatcher - INFO - Created action file for: test_task.txt
+2026-02-25 18:12:22,203 - FileSystemWatcher - INFO - Created action file: FILE_test_task_2026-02-25_18-12-22.md
+2026-02-25 18:13:45,019 - Orchestrator - INFO - Starting orchestration run
+2026-02-25 18:13:45,020 - Orchestrator - INFO - Found 1 pending item(s)
+2026-02-25 18:13:45,020 - Orchestrator - INFO - Processing: FILE_test_task_2026-02-25_18-12-22.md
+2026-02-25 18:13:45,026 - Orchestrator - INFO - Claude processing: FILE_test_task_2026-02-25_18-12-22.md
+2026-02-25 18:13:45,031 - Orchestrator - INFO - Created Claude prompt file: .claude_prompt_FILE_test_task_2026-02-25_18-12-22.txt
+2026-02-25 18:13:45,031 - Orchestrator - INFO - Run: claude "You are processing a task from the AI Employee vault.
+
+**Action File:** FILE_test_task_2026-02-25_18-12-22.md
+
+**Content:**
+---
+type: file_drop
+original_name: test_task.txt
+original_path: D:\GIAIC\Personal-AI-Empoloy-FTES\AI_Employee_Vault\Inbox\test_task.txt
+size: 300
+received: 2026-02-25T18:12:22.202507
+modified: 2026-02-25T18:08:40.553660
+status: pending
+priority: normal
+---
+
+# File Dropped for Processing
+
+## File Details
+
+- **Original Name:** test_task.txt
+- **Size:** 300.0 B
+- **Received:** 2026-02-25 18:12:22
+
+## Content Preview
+
+```
+This is a test task for the AI Employee system.
+
+Please review this message and:
+1. Acknowledge receipt
+2. Create a summary of what needs to be done
+3. Move this task to Done after processing
+
+This is a Bronze Tier test to verify the File System Watcher and Claude integration are working correctly.
+```
+
+## Suggested Actions
+
+- [ ] Review file content
+- [ ] Process and take action
+- [ ] Move to appropriate folder
+- [ ] Archive after processing
+
+## Notes
+
+*Add any notes about processing this file below:*
+
+---
+*Created by FileSystemWatcher (Bronze Tier)*
+
+
+**Your Task:**
+1. Read the Company_Handbook.md for rules and guidelines
+2. Analyze the action file and determine what needs to be done
+3. Create a plan file at: D:\GIAIC\Personal-AI-Empoloy-FTES\AI_Employee_Vault\Plans\PLAN_FILE_test_task_2026-02-25_18-12-22_20260225_181345.md
+4. If the task requires human approval, move the file to /Pending_Approval
+5. If the task can be completed autonomously, do so and move to /Done
+6. Update Dashboard.md with the activity
+
+**Important Rules:**
+- Follow the Company_Handbook.md rules
+- Flag payments over $100 for approval
+- Flag unknown contacts for human review
+- Log all actions
+- Move completed items to /Done folder
+
+Start by reading the Company_Handbook.md, then process this item."
+2026-02-25 18:13:45,037 - Orchestrator - INFO - Dashboard updated
+2026-02-25 18:13:45,038 - Orchestrator - INFO - Orchestration complete. Processed 1 items.
+2026-02-25 18:21:16,199 - FileSystemWatcher - INFO - Loaded 1 processed file hashes
+2026-02-25 18:21:16,199 - FileSystemWatcher - INFO - Starting FileSystemWatcher
+2026-02-25 18:21:16,199 - FileSystemWatcher - INFO - Vault path: D:\GIAIC\Personal-AI-Empoloy-FTES\AI_Employee_Vault
+2026-02-25 18:21:16,200 - FileSystemWatcher - INFO - Check interval: 30s
+2026-02-25 18:27:16,225 - FileSystemWatcher - INFO - Found 1 new item(s)
+2026-02-25 18:27:16,235 - FileSystemWatcher - INFO - Created action file for: test-file.md
+2026-02-25 18:27:16,236 - FileSystemWatcher - INFO - Created action file: FILE_test-file_2026-02-25_18-27-16.md
+2026-02-25 18:34:24,358 - Orchestrator - INFO - Starting orchestration run
+2026-02-25 18:34:24,360 - Orchestrator - INFO - Found 2 pending item(s)
+2026-02-25 18:34:24,360 - Orchestrator - INFO - Processing: FILE_test-file_2026-02-25_18-27-16.md
+2026-02-25 18:34:24,361 - Orchestrator - INFO - Claude processing: FILE_test-file_2026-02-25_18-27-16.md
+2026-02-25 18:34:24,362 - Orchestrator - INFO - Created Claude prompt file: .claude_prompt_FILE_test-file_2026-02-25_18-27-16.txt
+2026-02-25 18:34:24,362 - Orchestrator - INFO - Run: claude "You are processing a task from the AI Employee vault.
+
+**Action File:** FILE_test-file_2026-02-25_18-27-16.md
+
+**Content:**
+---
+type: file_drop
+original_name: test-file.md
+original_path: D:\GIAIC\Personal-AI-Empoloy-FTES\AI_Employee_Vault\Inbox\test-file.md
+size: 35
+received: 2026-02-25T18:27:16.227723
+modified: 2026-02-25T18:26:40.591855
+status: pending
+priority: normal
+---
+
+# File Dropped for Processing
+
+## File Details
+
+- **Original Name:** test-file.md
+- **Size:** 35.0 B
+- **Received:** 2026-02-25 18:27:16
+
+## Content Preview
+
+```
+Hellow i am prem kumar how are you.
+```
+
+## Suggested Actions
+
+- [ ] Review file content
+- [ ] Process and take action
+- [ ] Move to appropriate folder
+- [ ] Archive after processing
+
+## Notes
+
+*Add any notes about processing this file below:*
+
+---
+*Created by FileSystemWatcher (Bronze Tier)*
+
+
+**Your Task:**
+1. Read the Company_Handbook.md for rules and guidelines
+2. Analyze the action file and determine what needs to be done
+3. Create a plan file at: D:\GIAIC\Personal-AI-Empoloy-FTES\AI_Employee_Vault\Plans\PLAN_FILE_test-file_2026-02-25_18-27-16_20260225_183424.md
+4. If the task requires human approval, move the file to /Pending_Approval
+5. If the task can be completed autonomously, do so and move to /Done
+6. Update Dashboard.md with the activity
+
+**Important Rules:**
+- Follow the Company_Handbook.md rules
+- Flag payments over $100 for approval
+- Flag unknown contacts for human review
+- Log all actions
+- Move completed items to /Done folder
+
+Start by reading the Company_Handbook.md, then process this item."
+2026-02-25 18:34:24,382 - Orchestrator - INFO - Dashboard updated
+2026-02-25 18:34:24,382 - Orchestrator - INFO - Processing: FILE_test_task_2026-02-25_18-12-22.md
+2026-02-25 18:34:24,383 - Orchestrator - INFO - Claude processing: FILE_test_task_2026-02-25_18-12-22.md
+2026-02-25 18:34:24,384 - Orchestrator - INFO - Created Claude prompt file: .claude_prompt_FILE_test_task_2026-02-25_18-12-22.txt
+2026-02-25 18:34:24,384 - Orchestrator - INFO - Run: claude "You are processing a task from the AI Employee vault.
+
+**Action File:** FILE_test_task_2026-02-25_18-12-22.md
+
+**Content:**
+---
+type: file_drop
+original_name: test_task.txt
+original_path: D:\GIAIC\Personal-AI-Empoloy-FTES\AI_Employee_Vault\Inbox\test_task.txt
+size: 300
+received: 2026-02-25T18:12:22.202507
+modified: 2026-02-25T18:08:40.553660
+status: pending
+priority: normal
+---
+
+# File Dropped for Processing
+
+## File Details
+
+- **Original Name:** test_task.txt
+- **Size:** 300.0 B
+- **Received:** 2026-02-25 18:12:22
+
+## Content Preview
+
+```
+This is a test task for the AI Employee system.
+
+Please review this message and:
+1. Acknowledge receipt
+2. Create a summary of what needs to be done
+3. Move this task to Done after processing
+
+This is a Bronze Tier test to verify the File System Watcher and Claude integration are working correctly.
+```
+
+## Suggested Actions
+
+- [ ] Review file content
+- [ ] Process and take action
+- [ ] Move to appropriate folder
+- [ ] Archive after processing
+
+## Notes
+
+*Add any notes about processing this file below:*
+
+---
+*Created by FileSystemWatcher (Bronze Tier)*
+
+
+**Your Task:**
+1. Read the Company_Handbook.md for rules and guidelines
+2. Analyze the action file and determine what needs to be done
+3. Create a plan file at: D:\GIAIC\Personal-AI-Empoloy-FTES\AI_Employee_Vault\Plans\PLAN_FILE_test_task_2026-02-25_18-12-22_20260225_183424.md
+4. If the task requires human approval, move the file to /Pending_Approval
+5. If the task can be completed autonomously, do so and move to /Done
+6. Update Dashboard.md with the activity
+
+**Important Rules:**
+- Follow the Company_Handbook.md rules
+- Flag payments over $100 for approval
+- Flag unknown contacts for human review
+- Log all actions
+- Move completed items to /Done folder
+
+Start by reading the Company_Handbook.md, then process this item."
+2026-02-25 18:34:24,412 - Orchestrator - INFO - Dashboard updated
+2026-02-25 18:34:24,412 - Orchestrator - INFO - Orchestration complete. Processed 2 items.
+2026-02-25 18:37:47,073 - Orchestrator - INFO - Starting orchestration run
+2026-02-25 18:37:47,074 - Orchestrator - INFO - Found 2 pending item(s)
+2026-02-25 18:37:47,074 - Orchestrator - INFO - Processing: FILE_test-file_2026-02-25_18-27-16.md
+2026-02-25 18:37:47,075 - Orchestrator - INFO - Claude processing: FILE_test-file_2026-02-25_18-27-16.md
+2026-02-25 18:37:47,076 - Orchestrator - INFO - Created Claude prompt file: .claude_prompt_FILE_test-file_2026-02-25_18-27-16.txt
+2026-02-25 18:37:47,076 - Orchestrator - INFO - Run: claude "You are processing a task from the AI Employee vault.
+
+**Action File:** FILE_test-file_2026-02-25_18-27-16.md
+
+**Content:**
+---
+type: file_drop
+original_name: test-file.md
+original_path: D:\GIAIC\Personal-AI-Empoloy-FTES\AI_Employee_Vault\Inbox\test-file.md
+size: 35
+received: 2026-02-25T18:27:16.227723
+modified: 2026-02-25T18:26:40.591855
+status: pending
+priority: normal
+---
+
+# File Dropped for Processing
+
+## File Details
+
+- **Original Name:** test-file.md
+- **Size:** 35.0 B
+- **Received:** 2026-02-25 18:27:16
+
+## Content Preview
+
+```
+Hellow i am prem kumar how are you.
+```
+
+## Suggested Actions
+
+- [ ] Review file content
+- [ ] Process and take action
+- [ ] Move to appropriate folder
+- [ ] Archive after processing
+
+## Notes
+
+*Add any notes about processing this file below:*
+
+---
+*Created by FileSystemWatcher (Bronze Tier)*
+
+
+**Your Task:**
+1. Read the Company_Handbook.md for rules and guidelines
+2. Analyze the action file and determine what needs to be done
+3. Create a plan file at: D:\GIAIC\Personal-AI-Empoloy-FTES\AI_Employee_Vault\Plans\PLAN_FILE_test-file_2026-02-25_18-27-16_20260225_183747.md
+4. If the task requires human approval, move the file to /Pending_Approval
+5. If the task can be completed autonomously, do so and move to /Done
+6. Update Dashboard.md with the activity
+
+**Important Rules:**
+- Follow the Company_Handbook.md rules
+- Flag payments over $100 for approval
+- Flag unknown contacts for human review
+- Log all actions
+- Move completed items to /Done folder
+
+Start by reading the Company_Handbook.md, then process this item."
+2026-02-25 18:37:47,103 - Orchestrator - INFO - Dashboard updated
+2026-02-25 18:37:47,104 - Orchestrator - INFO - Processing: FILE_test_task_2026-02-25_18-12-22.md
+2026-02-25 18:37:47,105 - Orchestrator - INFO - Claude processing: FILE_test_task_2026-02-25_18-12-22.md
+2026-02-25 18:37:47,106 - Orchestrator - INFO - Created Claude prompt file: .claude_prompt_FILE_test_task_2026-02-25_18-12-22.txt
+2026-02-25 18:37:47,106 - Orchestrator - INFO - Run: claude "You are processing a task from the AI Employee vault.
+
+**Action File:** FILE_test_task_2026-02-25_18-12-22.md
+
+**Content:**
+---
+type: file_drop
+original_name: test_task.txt
+original_path: D:\GIAIC\Personal-AI-Empoloy-FTES\AI_Employee_Vault\Inbox\test_task.txt
+size: 300
+received: 2026-02-25T18:12:22.202507
+modified: 2026-02-25T18:08:40.553660
+status: pending
+priority: normal
+---
+
+# File Dropped for Processing
+
+## File Details
+
+- **Original Name:** test_task.txt
+- **Size:** 300.0 B
+- **Received:** 2026-02-25 18:12:22
+
+## Content Preview
+
+```
+This is a test task for the AI Employee system.
+
+Please review this message and:
+1. Acknowledge receipt
+2. Create a summary of what needs to be done
+3. Move this task to Done after processing
+
+This is a Bronze Tier test to verify the File System Watcher and Claude integration are working correctly.
+```
+
+## Suggested Actions
+
+- [ ] Review file content
+- [ ] Process and take action
+- [ ] Move to appropriate folder
+- [ ] Archive after processing
+
+## Notes
+
+*Add any notes about processing this file below:*
+
+---
+*Created by FileSystemWatcher (Bronze Tier)*
+
+
+**Your Task:**
+1. Read the Company_Handbook.md for rules and guidelines
+2. Analyze the action file and determine what needs to be done
+3. Create a plan file at: D:\GIAIC\Personal-AI-Empoloy-FTES\AI_Employee_Vault\Plans\PLAN_FILE_test_task_2026-02-25_18-12-22_20260225_183747.md
+4. If the task requires human approval, move the file to /Pending_Approval
+5. If the task can be completed autonomously, do so and move to /Done
+6. Update Dashboard.md with the activity
+
+**Important Rules:**
+- Follow the Company_Handbook.md rules
+- Flag payments over $100 for approval
+- Flag unknown contacts for human review
+- Log all actions
+- Move completed items to /Done folder
+
+Start by reading the Company_Handbook.md, then process this item."
+2026-02-25 18:37:47,147 - Orchestrator - INFO - Dashboard updated
+2026-02-25 18:37:47,148 - Orchestrator - INFO - Orchestration complete. Processed 2 items.
